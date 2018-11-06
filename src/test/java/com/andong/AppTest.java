@@ -1,8 +1,9 @@
 package com.andong;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Unit test for simple App.
@@ -15,6 +16,12 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+
+
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+
     }
 }
